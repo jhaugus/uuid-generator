@@ -5,7 +5,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
 
-public class UUIDExample {
+public class UUIDVersion5 {
 
     public static UUID generateUUID5(UUID namespace, String name) throws NoSuchAlgorithmException {
         MessageDigest md = MessageDigest.getInstance("SHA-1");

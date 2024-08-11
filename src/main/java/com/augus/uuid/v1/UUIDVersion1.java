@@ -5,7 +5,7 @@ import com.fasterxml.uuid.impl.TimeBasedGenerator;
 
 import java.util.UUID;
 
-public class UUIDExample {
+public class UUIDVersion1 {
     public static void main(String[] args) {
         TimeBasedGenerator timeBasedGenerator = Generators.timeBasedGenerator();
         UUID uuid1 = timeBasedGenerator.generate();
