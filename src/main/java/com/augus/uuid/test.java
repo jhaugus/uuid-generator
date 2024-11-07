@@ -8,4 +8,5 @@ package com.augus.uuid;
  * @Version: 1.0
  */
 public class test {
+  test
 }
